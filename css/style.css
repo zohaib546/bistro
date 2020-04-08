@@ -1,0 +1,233 @@
+@font-face{
+	font-family: pacifico;
+	src: url(pacifico.ttf);
+}
+
+@font-face{
+	font-family: raleway;
+	src: url(Raleway.ttf);
+}
+
+.bg-main{
+	background: url('bg.jpg');
+	background-size: cover;
+}
+
+h1,h2,h3,h4{
+	font-family: 'pacifico', 'cursive';
+	font-weight: bold;
+	color: #bb9f05!important;
+}
+
+body{
+	font-family: 'raleway', sans-serif;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+.navbar{
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	background-color: transparent;
+	color: #fff;
+}
+
+.nav-link{
+	color: #fff!important;
+	padding-right: 2rem!important;
+}
+
+.contact-primary-btn{
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #bb9f05;
+    border-radius: 0;
+}
+
+.contact-primary-btn:hover{
+    background: #bb9f05;
+    border: 2px solid #bb9f05;
+}
+
+.jumbotron{
+	background: transparent;
+	color: #fff;
+	padding: 5rem;
+	margin-bottom: 0;
+}
+
+.jumbotron h1{
+	font-size: 4rem;
+}
+
+.jumbotron p{
+	margin-top: 2rem;
+}
+
+.main-menu{
+	background: url('../img/pattern3.png');
+	background-position: auto;
+	background-size: auto;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+.menu-text{
+	margin-bottom: 5rem;
+}
+
+.main-menu img, p, h1{
+	margin-bottom: 2rem;
+}
+
+.dishname{
+	margin-top: 3rem;
+}
+
+.dishname img{
+	width: 100%;
+}
+
+.price{
+	font-size: 5rem;
+	margin-top: 2rem;
+}
+
+.main-tastebuds{
+	background: url(../img/bg2.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+.main-tastebuds img{
+	padding-bottom: 2rem;
+}
+
+.container-fluid{
+	margin: 0;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.tastebuds-row{
+	padding-top: 3rem;	
+}
+
+.main-tastebuds-img{
+	width: 100%;
+}
+
+.col-pad-0{
+	padding: 0;
+}
+
+.chef-box{
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+.chef-box-img{
+	width: 100%;
+	padding-bottom: 2rem;
+	transition: all 0.5s none;
+	transition-delay: 0.5s;
+	transition-duration: 0.5s;
+}
+
+.chef-box-img:hover{
+	filter: grayscale(100%);
+}
+
+.chef-box h4, p{
+	margin-top: 1.2rem;
+}
+
+.chef-box img{
+	padding-bottom: 2rem;
+}
+
+.chef-box a{
+	color: inherit;
+}
+
+.fab{
+	font-size: 24px;
+	padding: 5px;
+}
+
+.chef-box a:hover{
+	color: #bb9f05;
+}
+
+.reservation-box{
+	background: url(../img/reservations-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	color: #fff;
+}
+
+.reservation-box img{
+	padding-bottom: 2rem;
+}
+
+.reservation-box a{
+	margin-top: 2rem;
+}
+
+form{
+	border: 5px solid #bb9f05;
+	padding: 5rem;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 2px solid #bb9f05!important;
+    /* border: none; */
+    border-radius: 0px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.form-group{
+	margin: 0 5rem;
+}
+
+label{
+	display: inline-block;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+footer{
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	background: #000;
+	border-top: 2px solid #bb9f05;
+}
+
+.social-icon-pack-white{
+	text-align: right;
+}
+
+.social-icon-pack-white i{
+	color: #fff;
+}
+
+.social-icon-pack-white i:hover{
+	color: #bb9f05;
+}
